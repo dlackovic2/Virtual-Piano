@@ -1,0 +1,54 @@
+body {
+    background-color: cadetblue;
+}
+
+.white-keys kbd{
+    background-color: white;
+    padding: 100px 15px 5px 15px;
+    height: 50px;
+    width: 40px;
+    border: 4px solid darkslategray;
+    margin-left: -8px;
+}
+
+.black-keys kbd{
+    color: #ffffff;
+    background-color: black;
+    padding: 50px 8px 25px 8px;
+    height: 22px;
+    width: 20px;
+    font-size: small;
+    position: relative;
+    bottom: 159px;
+}
+
+#keyW{
+    left: 50px;
+}
+
+#keyE{
+    left: 85px;
+}
+
+#keyT{
+    left: 190px;
+}
+
+#keyY{
+    left: 225px;
+}
+
+#keyU{
+    left: 255px;
+}
+
+kbd{
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+.container {
+    width: fit-content;
+    margin: 35vh auto;
+}
